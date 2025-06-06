@@ -1,5 +1,5 @@
 import { LinearGradient } from 'expo-linear-gradient';
-import { Link } from 'expo-router';
+import { router } from 'expo-router';
 import {
   KeyboardAvoidingView,
   Platform,
@@ -38,7 +38,7 @@ export default function LoginScreen() {
             placeholderTextColor="#ccc"
             keyboardType="email-address"
             autoCapitalize="none"
-            className="bg-white/90 rounded-xl px-4 py-3 text-gray-800"
+            className="bg-white/90 rounded-xl px-4 py-3 mb-4 text-gray-800"
           />
           <TextInput
             placeholder="Password"
@@ -52,13 +52,11 @@ export default function LoginScreen() {
         </View>
 
         {/* Login Button */}
-        <TouchableOpacity  className="mt-8 bg-white rounded-xl py-3 items-center">
-          <Link href="/(tabs)/home" className="text-indigo-600 font-bold text-lg">
+        <TouchableOpacity onPress={()=> {router.push("/(tabs)/home")}} className="mt-8 bg-white rounded-xl py-3 items-center">
             Login
-          </Link>
         </TouchableOpacity>
 
-        {/* Footer */}
+        {/* Footer */}rou
         <View className="mt-6 flex-row justify-center">
           <Text className="text-white">Don't have an account? </Text>
           <TouchableOpacity>

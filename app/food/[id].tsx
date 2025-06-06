@@ -64,7 +64,8 @@ export default function FoodDetailScreen() {
           ))}
         </ScrollView>
 
-        <TouchableOpacity className="bg-primaryPurple p-5 rounded-full flex-row items-center justify-center shadow-lg mb-4">
+        <TouchableOpacity  className="bg-primaryPurple p-5 rounded-full flex-row items-center justify-center shadow-lg mb-4"
+          onPress={() => router.push("/(tabs)/delivery")}>
           <Text className="text-purple-500 text-2xl font-bold">Order Now</Text>
         </TouchableOpacity>
         <View className="h-20" />{/* Spacer for bottom tab bar */}
