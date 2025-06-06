@@ -13,13 +13,13 @@ export default function FoodDetailScreen() {
     id: id,
     name: 'Pepperoni Pizza',
     restaurant: 'Pizza Palace',
-    price: '$15.00',
+    price: 'Tsh 15.00',
     description: 'A delicious classic pepperoni pizza with mozzarella cheese and a crispy crust.',
     image: require('../../assets/images/food1.png'), // Updated path
     similarFoods: [
-      { id: '1', name: 'Veggie Pizza', restaurant: 'Pizza Palace', price: '$14.00', image: require('../../assets/images/food1.png') },
-      { id: '2', name: 'Classic Burger', restaurant: 'Burger Joint', price: '$12.50', image: require('../../assets/images/food2.png') },
-      { id: '3', name: 'California Roll', restaurant: 'Sushi Spot', price: '$18.00', image: require('../../assets/images/food3.png') },
+      { id: '1', name: 'Veggie Pizza', restaurant: 'Pizza Palace', price: 'Tsh 14.00', image: require('../../assets/images/food1.png') },
+      { id: '2', name: 'Classic Burger', restaurant: 'Burger Joint', price: 'Tsh 12.50', image: require('../../assets/images/food2.png') },
+      { id: '3', name: 'California Roll', restaurant: 'Sushi Spot', price: 'Tsh 18.00', image: require('../../assets/images/food3.png') },
     ]
   };
 

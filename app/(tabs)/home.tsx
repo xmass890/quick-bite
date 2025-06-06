@@ -25,35 +25,35 @@ export default function HomeScreen() {
       id: '1',
       name: 'Pepperoni Pizza',
       restaurant: 'Pizza Palace',
-      price: '$15.00',
+      price: 'Tsh15.00',
       image: require('@/assets/images/food1.png'),
     },
     {
       id: '2',
       name: 'Classic Burger',
       restaurant: 'Burger Joint',
-      price: '$12.50',
+      price: 'Tsh12.50',
       image: require('@/assets/images/food2.png'),
     },
     {
       id: '3',
       name: 'California Roll',
       restaurant: 'Sushi Spot',
-      price: '$18.00',
+      price: 'Tsh18.00',
       image: require('@/assets/images/food1.png'),
     },
     {
       id: '4',
       name: 'Chocolate Cake',
       restaurant: 'Sweet Delights',
-      price: '$7.00',
+      price: 'Tsh7.00',
       image: require('@/assets/images/food3.png'),
     },
     {
       id: '5',
       name: 'Veggie Pizza',
       restaurant: 'Pizza Palace',
-      price: '$14.00',
+      price: 'Tsh14.00',
       image: require('@/assets/images/food2.png'),
     },
   ];
@@ -108,7 +108,7 @@ export default function HomeScreen() {
           {/* Food List */}
           <Text className="text-2xl font-bold text-white mb-4">Popular Dishes</Text>
           {foodItems.map((food) => (
-            <Link href={`/food/${food.id}`} key={food.id} asChild>
+            <Link href={`/food/Tsh{food.id}`} key={food.id} asChild>
               <TouchableOpacity className="flex-row items-center bg-white rounded-xl p-4 mb-4 shadow-md shadow-black/20">
                 <Image
                   source={food.image}

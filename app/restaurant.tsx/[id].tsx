@@ -19,12 +19,12 @@ export default function RestaurantDetailScreen() {
     image: require('../../assets/images/restaurant1.png'), // Changed to assets/images/restaurant1.png
     menu: [
       { category: 'Pizzas', items: [
-        { id: '1', name: 'Pepperoni Pizza', price: '$15.00', image: require('../../assets/images/food1.png') }, // Changed to food1
-        { id: '5', name: 'Veggie Pizza', price: '$14.00', image: require('../../assets/images/food2.png') },   // Changed to food2
+        { id: '1', name: 'Pepperoni Pizza', price: 'Tsh 15.00', image: require('../../assets/images/food1.png') }, // Changed to food1
+        { id: '5', name: 'Veggie Pizza', price: 'Tsh 14.00', image: require('../../assets/images/food2.png') },   // Changed to food2
       ]},
       { category: 'Sides', items: [
-        { id: 's1', name: 'Garlic Bread', price: '$5.00', image: require('../../assets/images/restaurant3.png') }, // Changed to restaurant3
-        { id: 's2', name: 'Fries', price: '$4.00', image: require('../../assets/images/restaurant3.png') },        // Changed to restaurant3
+        { id: 's1', name: 'Garlic Bread', price: 'Tsh 5.00', image: require('../../assets/images/restaurant3.png') }, // Changed to restaurant3
+        { id: 's2', name: 'Fries', price: 'Tsh 4.00', image: require('../../assets/images/restaurant3.png') },        // Changed to restaurant3
       ]},
     ]
   };

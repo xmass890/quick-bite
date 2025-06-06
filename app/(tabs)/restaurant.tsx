@@ -17,21 +17,21 @@ export default function SearchScreen() {
       id: '1',
       name: 'Spicy Chicken Pizza',
       restaurant: 'Pizza Palace',
-      price: '$16.00',
+      price: 'Tsh 16.00',
       image: require('@/assets/images/food1.png'),
     },
     {
       id: '2',
       name: 'Avocado Burger',
       restaurant: 'Burger Joint',
-      price: '$13.50',
+      price: 'Tsh 13.50',
       image: require('@/assets/images/food2.png'),
     },
     {
       id: '3',
       name: 'Dragon Roll Sushi',
       restaurant: 'Sushi Spot',
-      price: '$20.00',
+      price: 'Tsh 20.00',
       image: require('@/assets/images/food3.png'),
     },
   ];
@@ -62,7 +62,7 @@ export default function SearchScreen() {
           <Text className="text-2xl font-bold text-white mb-4">Search Results</Text>
 
           {results.map((item) => (
-            <Link href={`/food/${item.id}`} key={item.id} asChild>
+            <Link href={`/food/Tsh {item.id}`} key={item.id} asChild>
               <TouchableOpacity className="flex-row items-center bg-white rounded-xl p-4 mb-4 shadow-md shadow-black/20">
                 <Image
                   source={item.image}
