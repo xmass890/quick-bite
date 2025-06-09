@@ -54,7 +54,7 @@ export default function ProfileScreen() {
           <View>
             <Text className="text-gray-500 text-sm">Phone Number</Text>
             <Text className="text-gray-900 text-lg font-semibold">
-              +1 (555) 123‑4567
+              +225 75483-9458
             </Text>
           </View>
         </View>

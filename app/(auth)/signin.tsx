@@ -56,7 +56,7 @@ export default function LoginScreen() {
             Login
         </TouchableOpacity>
 
-        {/* Footer */}rou
+        {/* Footer */}
         <View className="mt-6 flex-row justify-center">
           <Text className="text-white">Don't have an account? </Text>
           <TouchableOpacity>
